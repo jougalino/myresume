@@ -26,9 +26,9 @@ footer {
   padding: 25px;
   text-align: center;
   border-radius: 5px;
-  background: linear-gradient(45deg, #a37854, #5f3a2a, #432417);
-  animation: bg 7s infinite;
-  background-size: 300%;
+  background: linear-gradient(90deg, #FF6663, #FEB144, #9EE09E, #9EC1CF, #CC99C9);
+  animation: bg 12s infinite;
+  background-size: 500%;
 }
 
 a:hover {
@@ -79,6 +79,7 @@ h3 {
   padding-right: 3%;
   width: 350px;
   height: 500px;
+  object-fit: contain;
 }
 
 .info, .info_contact {
@@ -117,4 +118,54 @@ h3 {
   vertical-align: top;
   width: 21px;
   height: 21px;
+}
+
+.row {
+  text-align: center;
+}
+
+.school {
+  width: 30%;
+  padding: 3px;
+  display: inline-block;
+}
+
+.school:hover {
+  background: #fcf1e3;
+  border-radius: 5px;
+}
+
+.container {
+  overflow: hidden;
+}
+
+.schoolpic {
+  width: 100%;
+  max-height: 300px;
+  object-fit: cover;
+  transition: .3s ease-in-out;
+  transform: scale(1);
+}
+
+.schoolpic:hover {
+  transform: scale(1.5);
+}
+
+#involvement_header {
+  font: italic 22px Raleway, sans-serif;
+  color: #fcf1e3;
+  background-color: #432417;
+  text-align: center;
+  padding: 5px;
+  margin: 0px 105px 0px 105px;
+  border-radius: 5px;
+  opacity: 65%;
+}
+
+.involvements ul, .involvements h4 {
+  padding: 0px 135px 0px 135px;
+}
+
+.involvements li {
+  font-weight: normal;
 }
